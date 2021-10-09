@@ -11,15 +11,15 @@
     <h1>Hi, name nickname is Systrent</h1>
     <?php
         //Printing to HTML using echo
-        echo "Hello my friend";
-        echo "<br/>";
-        echo "Hope you have a nice day!";
-        echo "<br/>";
+        echo 'Hello my friend';
+        echo '<br/>';
+        echo 'Hope you have a nice day!';
+        echo '<br/>';
     ?>
 
     <?php
         //Declare variable
-        $name = "Juan Pablo Mora";
+        $name = 'Juan Pablo Mora';
         $age = 21;
         //Echo variable
         echo $name;
@@ -33,11 +33,10 @@
 <h1>| Follow each link to the page example |</h1>
     <ul>
         <li><a href="ifstatement.php">Simple If Statement</a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
+        <li><a href="switchstatement.php">Simple Switch Statement</a></li>
+        <li><a href="forloop.php">Simple For Loop</a></li>
+        <li><a href="whiledowhileloop.php">Simple While/Do-While Loops</a></li>
+        <li><a href="array.php">Simple Array and Printouts</a></li>
     </ul>
 </body>
 </html>
