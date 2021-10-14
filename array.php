@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP - Newsite - Arrays</title>
-</head>
-<body>
-<?php
-        echo '<h1>Arrays</h1>';
+    <?php
+        $title = 'Array and Printouts';
+        include 'includes/header.php';
+        
+        echo '<h1>' . $title . '</h1>';
         
         //Variable
         $num = 3;
@@ -31,3 +25,6 @@
     ?>
 </body>
 </html>
+<?php
+    require 'includes/footer.php';
+?>

@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP - Newsite - Switch Statement</title>
-</head>
-<body>
     <?php
-        echo '<h1>Switch Statement</h1>';
+        $title = 'Switch Statement';
+        include 'includes/header.php';
+        
+        echo '<h1>' . $title . '</h1>';
         $grade = 'A';
 
         //Switch statement
@@ -27,3 +21,6 @@
     
 </body>
 </html>
+<?php
+    require 'includes/footer.php';
+?>

@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP - Newsite - If Statement</title>
-</head>
-<body>
     <?php
+        $title = 'If Statement';
+        include 'includes/header.php';
+        
         //An If statement that will carry out an action based on the value on the variable
-        echo '<h1>If Statement</h1>';
+        echo '<h1>' . $title . '</h1>';
 
         $grade = 30;
 
@@ -36,3 +30,6 @@
     ?>
 </body>
 </html>
+<?php
+    require 'includes/footer.php';
+?>
