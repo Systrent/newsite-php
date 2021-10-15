@@ -1,7 +1,7 @@
         <footer>
-                <?php   
-                    echo '<hr/><p>Copyright &copy; 1999 - ' . date('Y') . '  PHP Tutorial</p>';
-                ?>
+            <?php   
+                echo '<hr/><p>Copyright &copy; 1999 - ' . date('Y') . '  PHP Tutorial</p>';
+            ?>
         </footer>
     </div>
 
